@@ -1,0 +1,16 @@
+
+name: scRNA-ML
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scanpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - h5py
+  - jupyter
